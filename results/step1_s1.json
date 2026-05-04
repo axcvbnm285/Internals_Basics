@@ -1,0 +1,18 @@
+{
+    "experiment_name": "cropsense-irrigation-hours",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 2.9568362024757864,
+            "rmse": 3.4989592482786613
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 1.7843414915568512,
+            "rmse": 2.1448267736144744
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "mae",
+    "best_metric_value": 1.7843414915568512
+}
